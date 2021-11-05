@@ -1,0 +1,56 @@
+Eraser
+Before developing, please check:
+1.	Need a file including the objects like strokes, shapes, media files, …and so on
+2.	Choose some objects to lock
+3.	The objects can be erased by moving eraser: unlocked strokes
+4.	The objects can be removed by clicking: unlocked non-stroke objects
+5.	The locked objects cannot be erased or removed by eraser
+
+Case 1-1: move regular eraser over strokes
+1.	Launch MVBA
+2.	Open the tested file
+3.	Turn to the page including unlocked strokes and locked strokes
+4.	Use regular eraser to erase on canvas by moving over the fixed coordinated points
+5.	Check the erased results (by screenshot to compare with samples)
+
+Case 1-2: move regular eraser over non-stroke objects
+1.	Launch MVBA
+2.	Open the tested file
+3.	Turn to the page including non-stroke objects (Shape, lines, media files, AI pen objects, … and so on)
+4.	Use regular eraser to erase on canvas by moving over the fixed coordinated points
+5.	Check the erased results (by screenshot to compare with samples)
+
+Case 1-3: Use eraser to click non-stroke objects
+1.	Launch MVBA
+2.	Open the tested file
+3.	Turn to the page including non-stroke objects (Shape, lines, media files, AI pen objects, … and so on)
+4.	Use regular eraser to eraser some non-stroke objects
+5.	Check the erased results (by screenshot to compare with samples)
+
+Case 2-1: Circle erase for single unlocked object
+1.	Launch MVBA
+2.	Open the tested file
+3.	Turn to the page including unlocked object
+4.	Use circle erase function to circle some unlocked object
+5.	Check the erased results (by screenshot to compare with samples)
+
+Case 2-2: Circle erase for single locked object
+1.	Launch MVBA
+2.	Open the tested file
+3.	Turn to the page including locked object
+4.	Use circle erase function to circle some locked object
+5.	Check the erased results (by screenshot to compare with samples)
+
+Case 2-3: Circle erase for multiple objects
+1.	Launch MVBA
+2.	Open the tested file
+3.	Turn to the page including locked and unlocked objects
+4.	Use circle erase function to circle all objects
+5.	Check the erased results (by screenshot to compare with samples)
+
+Case 3: Clear all
+1.	Launch MVBA
+2.	Open the tested file
+3.	Turn to the page including locked and unlocked objects
+4.	Use clear all function
+5.	Check the erased results (by screenshot to compare with samples)
